@@ -30,15 +30,6 @@ A one-page summary highlighting key insights and recommendations.
 Notebook containing the Python code used for data processing and visualization.
 
 
-### Daily Steps Distribution
-[<img src="./images/bellabeat_steps_hist.png" width="260">](./images/bellabeat_steps_hist.png)
-
-### Calories vs. Total Daily Steps
-[<img src="./images/bellabeat_steps_vs_calories.png" width="260">](./images/bellabeat_steps_vs_calories.png)
-
-### Daily Steps vs. Minutes Asleep
-[<img src="./images/bellabeat_steps_vs_sleep.png" width="260">](./images/bellabeat_steps_vs_sleep.png)
-
 
 🧠 Research Questions
 
@@ -65,8 +56,7 @@ Interpreted results and consolidated insights for Bellabeat’s context.
 All generated charts are stored in:  
 **[`/images/`](images/)**  
 Direct image links:
-- [Daily Steps Distribution](images/bellabeat_steps_hist.png)<img src="./images/bellabeat_steps_hist.png">
-
+- [Daily Steps Distribution](images/bellabeat_steps_hist.png)
   Shows how frequently users hit low, moderate, and high step counts.
 - [Calories vs Total Daily Steps](images/bellabeat_steps_vs_calories.png)
   Reveals a clear positive relationship between movement and energy expenditure.
