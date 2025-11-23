@@ -1,88 +1,101 @@
 Analyzing Consumer Fitness Behavior Using Bellabeat Data
 
-This project explores activity, calorie expenditure, and sleep patterns using publicly available Fitbit data. The analysis was completed in Python and follows a typical data-analytics workflow: cleaning the data, merging datasets, generating visualizations, and summarizing insights in a final report.
+A Python-based case study exploring how daily steps, calorie expenditure, and sleep duration relate to consumer fitness behavior. This project uses public Fitbit data and replicates a real-world analytics workflow: cleaning, merging datasets, generating visual insights, and producing a polished final report.
 
-Project Overview
+📌 Project Overview
 
-Bellabeat is a wellness technology company focused on helping women better understand their daily habits through smart devices.
-The purpose of this case study is to examine user behavior and identify patterns that could support product and marketing decisions.
+Bellabeat is a wellness technology company that designs smart devices for women.
+This case study analyzes user activity patterns to help understand:
 
-The analysis focuses on three key questions:
+Typical daily movement levels
 
-What does the distribution of daily steps reveal about general activity levels?
+How steps influence calorie burn
 
-How strongly do daily steps relate to calorie burn?
+Whether activity levels relate to sleep duration
 
-Is there any meaningful relationship between daily steps and sleep duration?
+The goal is to extract meaningful behavioral insights that can inform product positioning and user-engagement strategies.
 
-Repository Contents
-File	Description
-Bellabeat_Final_Report.pdf	Full formatted case-study report, including charts
-bellabeat_executive_summary.pdf	One-page summary of the key findings
-bellabeat_analysis.ipynb	Jupyter notebook containing all data processing and visualizations
-images/	Folder with all generated charts
-Methodology
+📂 Included in This Repository
 
-Loaded and cleaned the datasets: daily activity, daily steps, and sleep logs.
+### • Full Report  
+**[Bellabeat_Final_Report.pdf](Bellabeat_Final_Report.pdf)**  
+Complete case study with all charts and written analysis.
 
-Standardized date formats and merged the tables by participant ID and date.
+### • Executive Summary  
+**[bellabeat_executive_summary.pdf](bellabeat_executive_summary.pdf)**  
+A one-page summary highlighting key insights and recommendations.
 
-Removed or corrected missing and inconsistent entries.
+### • Jupyter Notebook  
+**[bellabeat_analysis.ipynb](bellabeat_analysis.ipynb)**  
+Notebook containing the Python code used for data processing and visualization.
 
-Explored the data visually through histograms and scatter plots.
+🧠 Research Questions
 
-Summarized findings and interpreted them in the context of Bellabeat users.
+What does the distribution of daily steps reveal about overall activity levels?
 
-Visualizations
-Distribution of Daily Steps
+How strongly are daily steps associated with calories burned?
 
-Shows typical activity ranges and highlights inactive vs. active groups.
+Is there a noticeable relationship between daily steps and sleep duration?
 
-Calories vs. Total Daily Steps
+🛠️ Methodology (Python Workflow)
 
-Illustrates the positive relationship between movement and calorie expenditure.
+Imported and cleaned datasets: daily activity, daily steps, and sleep logs.
 
-Daily Steps vs. Minutes Asleep
+Standardized date formats and merged datasets on Id + Date.
 
-Explores whether more active days correspond to longer sleep duration.
+Addressed missing values and ensured dataset consistency.
 
-Key Findings
-Activity Levels
+Generated visualizations using matplotlib and seaborn.
 
-Most users fall between 6,000 and 9,000 steps per day.
-A smaller segment regularly exceeds 15,000 steps, indicating higher activity.
-Between 15–20% log fewer than 2,000 steps, suggesting low engagement or sedentary behavior.
+Interpreted results and consolidated insights for Bellabeat’s context.
 
-Calories
+📊 Key Visualizations
 
-There is a clear positive correlation between daily steps and calories burned.
-More active days consistently show higher calorie expenditure.
+All generated charts are stored in:  
+**[`/images/`](images/)**  
+Direct image links:
+- [Daily Steps Distribution](images/bellabeat_steps_hist.png)
+  Shows how frequently users hit low, moderate, and high step counts.
+- [Calories vs Total Daily Steps](images/bellabeat_steps_vs_calories.png)
+  Reveals a clear positive relationship between movement and energy expenditure.
+- [Daily Steps vs Minutes Asleep](images/bellabeat_steps_vs_sleep.png)
+  Explores whether more active days lead to longer sleep.(The correlation is weak.)
 
-Sleep
 
-Daily steps and sleep duration do not show a meaningful correlation.
-Most users sleep between 5.5 and 7.5 hours per night.
+📝 Insights & Interpretation
+Activity Patterns
 
-Recommendations
+Most users average 6,000–9,000 steps/day, below recommended levels.
 
-Introduce step-based challenges to help users increase daily movement.
+A smaller group regularly exceeds 15,000 steps/day, showing high activity.
 
-Highlight calorie-burn insights in Bellabeat’s product messaging.
+~15–20% record very low steps (<2,000), suggesting sedentary behavior or inconsistent device use.
 
-Present sleep tracking as a complementary wellness feature.
+Calories & Activity
 
-Encourage users to review long-term trends instead of single-day metrics.
+Strong positive correlation between daily steps and calories burned.
 
-Running the Notebook
+Higher-activity users consistently burn more calories.
 
-To run the analysis locally:
+Sleep Behavior
 
+No clear linear relationship between steps and sleep duration.
+
+Most users sleep 5.5–7.5 hours, slightly below ideal ranges.
+
+🎯 Recommendations
+
+Encourage step-based challenges to promote daily movement.
+
+Highlight calorie-burn tracking in Bellabeat's marketing materials.
+
+Treat sleep metrics as a complementary feature rather than activity-dependent.
+
+Help users focus on long-term habit trends, not short-term fluctuations.
+
+▶️ How to Run the Notebook Locally
 pip install pandas numpy matplotlib seaborn
 jupyter notebook
 
 
-Open the notebook bellabeat_analysis.ipynb and execute the cells in order.
-
-Notes
-
-This project demonstrates practical data-analysis skills such as cleaning, merging, visualization, and communicating findings in a structured report. It serves as a comprehensive portfolio example for junior data analyst roles.
+Open bellabeat_analysis.ipynb and run cells sequentially.
