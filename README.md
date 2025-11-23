@@ -93,9 +93,24 @@ Treat sleep metrics as a complementary feature rather than activity-dependent.
 
 Help users focus on long-term habit trends, not short-term fluctuations.
 
-▶️ How to Run the Notebook Locally
-pip install pandas numpy matplotlib seaborn
-jupyter notebook
+▶️ How to Run the Analysis Notebook Locally
 
+### **Requirements**
+Make sure the following are installed:
+
+- Python 3.10+
+- pip (Python package manager)
+- Jupyter Notebook or JupyterLab
+
+### **1. Install dependencies**
+pip install pandas matplotlib jupyter
+
+### **2.Launch Jupyter Notebook**
+ jupyter notebook
+
+### **3.Then open**
+bellabeat_analysis.ipynb
 
 Open bellabeat_analysis.ipynb and run cells sequentially.
+
+
