@@ -22,11 +22,11 @@ The goal is to extract meaningful behavioral insights that can inform product po
 Complete case study with all charts and written analysis.
 
 ### • Executive Summary  
-**[bellabeat_executive_summary.pdf](bellabeat_executive_summary.pdf)**  
+**[bellabeat_executive_summary.pdf](https://github.com/dpf-tech/bellabeat-case-study/blob/main/bellabeat_executive_summary.pdf)**  
 A one-page summary highlighting key insights and recommendations.
 
 ### • Jupyter Notebook  
-**[bellabeat_analysis.ipynb](bellabeat_analysis.ipynb)**  
+**[bellabeat_analysis.ipynb](https://github.com/dpf-tech/bellabeat-case-study/blob/main/bellabeat_analysis.ipynb)**  
 Notebook containing the Python code used for data processing and visualization.
 
 
