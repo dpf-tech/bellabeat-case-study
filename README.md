@@ -18,7 +18,7 @@ The goal is to extract meaningful behavioral insights that can inform product po
 📂 Included in This Repository
 
 ### • Full Report  
-**[Bellabeat_Final_Report.pdf](Bellabeat_Final_Report.pdf)**  
+**[Bellabeat_Final_Report.pdf](Bellabeat_Final_Report.pdf)**  [Bellabeat_Final_Report.pdf](./Bellabeat_Final_Report.pdf) 
 Complete case study with all charts and written analysis.
 
 ### • Executive Summary  
