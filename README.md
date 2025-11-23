@@ -18,7 +18,7 @@ The goal is to extract meaningful behavioral insights that can inform product po
 📂 Included in This Repository
 
 ### • Full Report  
-**[Bellabeat_Final_Report.pdf](Bellabeat_Final_Report.pdf)**  [Bellabeat_Final_Report.pdf](./Bellabeat_Final_Report.pdf) 
+**[Bellabeat_Final_Report.pdf](Bellabeat_Final_Report.pdf)**
 Complete case study with all charts and written analysis.
 
 ### • Executive Summary  
@@ -28,6 +28,17 @@ A one-page summary highlighting key insights and recommendations.
 ### • Jupyter Notebook  
 **[bellabeat_analysis.ipynb](bellabeat_analysis.ipynb)**  
 Notebook containing the Python code used for data processing and visualization.
+
+
+### Daily Steps Distribution
+[<img src="./images/bellabeat_steps_hist.png" width="260">](./images/bellabeat_steps_hist.png)
+
+### Calories vs. Total Daily Steps
+[<img src="./images/bellabeat_steps_vs_calories.png" width="260">](./images/bellabeat_steps_vs_calories.png)
+
+### Daily Steps vs. Minutes Asleep
+[<img src="./images/bellabeat_steps_vs_sleep.png" width="260">](./images/bellabeat_steps_vs_sleep.png)
+
 
 🧠 Research Questions
 
