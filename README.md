@@ -65,7 +65,8 @@ Interpreted results and consolidated insights for Bellabeat’s context.
 All generated charts are stored in:  
 **[`/images/`](images/)**  
 Direct image links:
-- [Daily Steps Distribution](images/bellabeat_steps_hist.png)
+- [Daily Steps Distribution](images/bellabeat_steps_hist.png)<img src="./images/bellabeat_steps_hist.png">
+
   Shows how frequently users hit low, moderate, and high step counts.
 - [Calories vs Total Daily Steps](images/bellabeat_steps_vs_calories.png)
   Reveals a clear positive relationship between movement and energy expenditure.
