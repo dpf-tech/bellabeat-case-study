@@ -63,6 +63,18 @@ Direct image links:
   Reveals a clear positive relationship between movement and energy expenditure.
 - [Daily Steps vs Minutes Asleep](images/bellabeat_steps_vs_sleep.png)
   Explores whether more active days lead to longer sleep.(The correlation is weak.)
+### Daily Steps Distribution  
+[![Daily Steps Distribution](images/bellabeat_steps_hist.png)](images/bellabeat_steps_hist.png)
+
+---
+
+### Calories vs Total Daily Steps  
+[![Calories vs Steps](images/bellabeat_steps_vs_calories.png)](images/bellabeat_steps_vs_calories.png)
+
+---
+
+### Daily Steps vs Minutes Asleep  
+[![Steps vs Sleep](images/bellabeat_steps_vs_sleep.png)](images/bellabeat_steps_vs_sleep.png)
 
 
 📝 Insights & Interpretation
